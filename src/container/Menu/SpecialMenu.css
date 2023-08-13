@@ -51,3 +51,15 @@
     margin: 2rem 0;
     width: 100%;
 }
+
+@media screen and (max-width: 650px) {
+    .app__specialMenu-menu {
+        flex-direction: column;
+    }
+    .app__specialMenu-menu_img {
+        width: 200px;
+    }
+    .app__specialMenu-menu_img img {
+        width: 200px;
+    }
+}
